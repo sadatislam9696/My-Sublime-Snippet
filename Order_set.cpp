@@ -41,7 +41,7 @@ int main(){
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
 using namespace std;
-template <class T> using ordered_set = tree<T, null_type,
+template <class T> using oset = tree<T, null_type,
                          less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 
